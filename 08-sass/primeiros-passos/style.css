@@ -1,0 +1,19 @@
+div {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px 10px;
+  background: #333;
+  font-family: Helvetica, sans-serif;
+}
+div p {
+  color: #c3005e;
+}
+div p:hover {
+  color: white;
+}
+
+p {
+  color: green;
+}/*# sourceMappingURL=style.css.map */

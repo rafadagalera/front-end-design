@@ -1,0 +1,24 @@
+@mixin zero-config($margin,$padding){
+    margin: $margin;
+    padding: $padding;
+}
+@mixin div-size($width,$height){
+    width: $width;
+    height: $height
+}   
+body {
+    @include zero-config(0,0);
+}
+.container{
+    @include div-size(80%,100vh);
+    margin: 0 auto;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .box {
+        @include div-size(50%,50%);
+        background-color: red;
+    }
+}
