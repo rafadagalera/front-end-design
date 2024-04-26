@@ -6,7 +6,7 @@ body {
 .container {
   width: 80%;
   height: 100vh;
-  background-color: #e7e7e7;
+  background-color: #742832;
   margin: 0 auto;
 }
 .container .box {
@@ -16,5 +16,5 @@ body {
   transform: translate(-50%, -50%);
   width: 50%;
   height: 50%;
-  background-color: #d43aff;
-}/*# sourceMappingURL=style.css.map */
+  background-color: #232373;
+}/*# sourceMappingURL=styles.css.map */
